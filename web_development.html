@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <style>
+        #img {
+            width: 1400;
+            height: 450;
+            padding: 37px;
+        }
+
+        .headings {
+            margin: 72px;
+        }
+
+        .content {
+            margin-left: 73px;
+            margin-right: 73px;
+            margin-top: -39px;
+            font-size: large;
+        }
+
+        .cards {
+            display: flex;
+        }
+
+        .card {
+            width: 18rem;
+            margin-left: 30px;
+        }
+
+        .title {
+            font: bold;
+            color: red;
+        }
+
+        .title1 {
+            font: bold;
+            color: green;
+        }
+
+        .title2 {
+            font: bold;
+            color: blue;
+        }
+
+        .title3 {
+            font: 12px;
+            color: brown;
+        }
+
+        h3 {
+            margin: 0px 72px;
+        }
+
+        hr {
+            margin: 20px 52px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">iCoder</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Topics
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="technology.html">Technology</a></li>
+                            <li><a class="dropdown-item  active" href="web_development.html">web Development</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="support.html">Support</a></li>
+                            <li><a class="dropdown-item" href="write_for_us.html">Write for us</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-secondary" type="submit">Search</button>
+                </form>
+                <br>
+                <div class="mx-2">
+                    <button class="btn btn-primary m-3" data-bs-toggle="modal" data-bs-target="#loginModal">Login
+                    </button>
+                    <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="corporate.jfif " id="img" class="d-block w-100" alt="...">
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="points">
+            <h2 class="headings">
+                <b> What is web development?</b>
+                <hr>
+            </h2>
+            <p class="content">Web development is the process of building websites and apps for the internet—or for a
+                private network known as an intranet. Web developers bring the design and functionality of a website to
+                life, writing code that determines things like style, layout, and interactivity. From the most simple,
+                static web pages to social media platforms and apps; from e-commerce websites to content management
+                systems (like WordPress)—all the tools we use via the internet have been built by web developers. <br>
+                <br>
+                There are three different types (or layers) of web development: The frontend, the backend, and database
+                technology. Frontend development, otherwise known as client-side scripting, encompasses all the elements
+                of a website that the user experiences directly. Things like layout, font, colors, menus, and contact
+                forms are all powered by the frontend. <br>
+                <br>
+                Backend development, or server-side scripting, is all about what goes on behind the scenes. When you
+                interact with a website in some way—for example, filling out a form and clicking “submit”—the frontend
+                communicates this action to the backend. The backend responds by sending the relevant information to the
+                frontend—for example, the code needed to display a message such as “Thank you for filling out this
+                form”. <br>
+                <br>
+                The third layer comprises database technology. The database contains all the files and content that are
+                necessary for a website to function, storing it in such a way that makes it easy to retrieve, organize,
+                edit, and save. <br>
+                <br>
+                The third layer comprises database technology. The database contains all the files and content that are
+                necessary for a website to function, storing it in such a way that makes it easy to retrieve, organize,
+                <br>
+
+            <h2 class="headings">
+                <b> What does a web developer do?</b>
+                <hr>
+            </h2>
+            <p class="content">
+                Broadly speaking, web developers are responsible for building and maintaining websites and apps. This
+                involves writing code, identifying and fixing bugs, and collaborating with key stakeholders and
+                designers to ensure that the products they’re building meet the needs of both the business and the user.
+                However, the exact role of the web developer varies depending on whether they specialize in frontend
+                development, backend development, or the full stack. <br>
+            </p>
+            <h3>Frontend developers</h3>
+            <hr><br>
+            <p class="content">Frontend developers implement all the visual and interactive elements of a website that
+                the user sees. Based on wireframes and prototypes provided by the design team, they use languages such
+                as HTML, JavaScript, and CSS to bring the website to life. This includes coding the layout, navigational
+                elements such as buttons and scrollbars, images, color schemes, and forms—anything that’s displayed on
+                the website. They’re also responsible for carrying out usability tests and fixing any bugs. </p>
+            <h3>Backend developers</h3>
+            <hr><br>
+            <p class="content">Backend developers are responsible for building and maintaining the behind-the-scenes
+                technology that powers the frontend. Essentially, backend developers write code which ensures that
+                everything the frontend developer builds is fully functional. Typical backend development tasks include
+                creating, integrating, and managing the database, building software using backend frameworks, and
+                developing and deploying content management systems—to name just a few. Just like frontend developers,
+                backend developers are also responsible for testing and debugging. </p>
+            <h3>Full stack developers</h3>
+            <hr><br>
+            <p class="content">Full stack developers are proficient in both the frontend and the backend. Typical tasks
+                include developing frontend and backend software using languages such as Ruby, Python, Java, PHP, and
+                JavaScript, creating and debugging database related queries, and generally overseeing web development
+                projects.</p>
+
+            <h2 class="headings">
+                <b>How to become a web developer</b>
+                <hr>
+            </h2>
+            <p class="content">
+                A career as a web developer requires a combination of certain hard and soft skills. Many of the
+                necessary soft skills—such as problem-solving, critical thinking, communication, and teamwork—are
+                transferable from other professions, while the hard skills can be mastered through a structured program
+                or course. <br>
+                <br>
+
+                The first step towards becoming a web developer is to learn the basic building blocks of the web: HTML,
+                CSS, and JavaScript. Once you’ve got the hang of those languages, you can start to get to grips with
+                libraries and frameworks—for example, jQuery, Angular, or React. At the same time, you’ll need to
+                familiarize yourself with GitHub, as well as text editor tools like Sublime or <br>
+                <br>
+                Another crucial step in your journey towards becoming a web developer is to build a professional
+                portfolio. Your portfolio showcases specific web development projects you’ve worked on, demonstrating
+                your skills to potential employers. It should also convey your passion for development and a glimpse of
+                your personality—you can think of it as part of your personal brand. <br>
+                <br>
+                It’s important to note that you don’t need a specific university degree to become a web developer—nor do
+                you need a certain professional background. With a passion for the field and the drive to learn the key
+                tools and languages, anyone can become a web developer from scratch. To ensure you’re learning the right
+                things in the right order, and to ensure you have the necessary guidance and mentorship, the most
+                effective route is through a dedicated course. <br>
+                <br>
+            </p>
+
+        </div>
+        <h2 class="headings">
+            <b>All articles</b>
+            <hr>
+        </h2>
+        <div class="cards">
+            <div class="card" style="width: 18rem;">
+                <img src="girl.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="title">Web development</p>
+                    <h5 class="card-title">What is Debugging? A Beginner's Guide for 2023</h5>
+                    <p class="card-text">In this article, we answer the question what is debugging, and look at some of
+                        the errors that you can find during the process.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="inbound-marketing.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="title1">Digital marketing</p>
+                    <h5 class="card-title">What Is Inbound Marketing?</h5>
+                    <p class="card-text">In this article, we answer the question what is Digital marketing, and look at some of
+                        the errors that you can find during the process.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="what-does-a-copywriter-do.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="title2">Product management</p>
+                    <h5 class="card-title">A Product Manager's Guide to Sprint Retrospectives</h5>
+                    <p class="card-text">In this article, we answer the question what is Product management, and look at some of
+                        the errors that you can find during the process.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="box-and-whisker-plot-in-excel.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="title3">Digital marketing</p>
+                    <h5 class="card-title">What Does a Copywriter Do?</h5>
+                    <p class="card-text">In this article, we answer the question what is Digital marketing, and look at some of
+                        the errors that you can find during the process.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+        <footer class="bd-footer py-5 mt-5 bg-light">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-lg-3 mb-3">
+                        <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="/"
+                            aria-label="Bootstrap">
+                            <span class="fs-5"><b>iCoder-Heaven for Programmers</b></span>
+                        </a>
+
+                    </div>
+                    <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+                        <h5>Links</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><a href="/">Home</a></li>
+                            <li class="mb-2"><a href="/docs/5.0/">Information</a></li>
+                            <li class="mb-2"><a href="/docs/5.0/examples/">Technology</a></li>
+                            <li class="mb-2"><a href="https://themes.getbootstrap.com/">skillset</a></li>
+                            <li class="mb-2"><a href="https://blog.getbootstrap.com/">Blog</a></li>
+                            <li class="mb-2"><a href="https://cottonbureau.com/people/bootstrap">Trending</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-lg-2 mb-3">
+                        <h5>Info</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><a href="/docs/5.0/getting-started/">Getting started</a></li>
+                            <li class="mb-2"><a href="/docs/5.0/examples/starter-template/">Starter template</a></li>
+                            <li class="mb-2"><a href="/docs/5.0/getting-started/webpack/">Webpack</a></li>
+                            <li class="mb-2"><a href="/docs/5.0/getting-started/parcel/">Parcel</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-lg-2 mb-3">
+                        <h5>News</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><a href="https://github.com/twbs/bootstrap">icoder</a></li>
+                            <li class="mb-2"><a href="https://github.com/twbs/bootstrap/tree/v4-dev">icoder</a></li>
+                            <li class="mb-2"><a href="https://github.com/twbs/icons">Icons</a></li>
+                            <li class="mb-2"><a href="https://github.com/twbs/rfs">RFS</a></li>
+                            <li class="mb-2"><a href="https://github.com/twbs/bootstrap-npm-starter">npm starter</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-lg-2 mb-3">
+                        <h5>About Blogs</h5>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><a href="https://github.com/twbs/bootstrap/issues">Issues</a></li>
+                            <li class="mb-2"><a href="https://github.com/twbs/bootstrap/discussions">Discussions</a>
+                            </li>
+                            <li class="mb-2"><a href="https://github.com/sponsors/twbs">Corporate sponsors</a></li>
+                            <li class="mb-2"><a href="https://opencollective.com/bootstrap">Open Collective</a></li>
+                            <li class="mb-2"><a href="https://stackoverflow.com/questions/tagged/bootstrap-5">Stack
+                                    Overflow</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <footer class="container">
+                <p class="float-end"><a href="#">Back to top</a></p>
+                <p>© 2017–2021 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+            </footer>
+        </footer>
+
+</body>
